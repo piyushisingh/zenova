@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "332640771142",
+    "project_id": "zenova-8f60f",
+    "storage_bucket": "zenova-8f60f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332640771142:android:87230f376ae102a1bbbe47",
+        "android_client_info": {
+          "package_name": "com.example.zenova"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqsbS6jBjIiCmVYO3JdwYT8w8N3ozc1Fg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
