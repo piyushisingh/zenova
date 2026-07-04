@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Zenova">
         <activity
+            android:name=".activites.ItemListAcitivty"
+            android:exported="false" />
+        <activity
+            android:name=".activites.DeatilActivity"
+            android:exported="false" />
+        <activity
             android:name=".activites.MainActivity"
             android:exported="true">
             <intent-filter>

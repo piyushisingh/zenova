@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
 
         initProfile()
         initCategory()
+        initBanner()
     }
 
     private fun initCategory() {
@@ -51,6 +52,14 @@ class MainActivity : AppCompatActivity() {
         viewModel.profile.observe(this) {
             binding.nameTxt.text = it.name
             Glide.with(this@MainActivity).load(it.profilePic).into(binding.profilePic)
+        }
+    }
+
+    private fun initBanner() {
+        viewModel.loadBanner()
+        viewModel.banner.observe(this) {
+            val bannerUrl = it.firstOrNull()?.url
+            Glide.with(this@MainActivity).load(bannerUrl).into(binding.bannerImg)
         }
     }
 }

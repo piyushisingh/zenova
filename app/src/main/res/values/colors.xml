@@ -6,4 +6,11 @@
     <color name="purple">#7d69d8</color>
     <color name="lightGray">#e1e1e1</color>
     <color name="gray">#979797</color>
+    <color name="salmonPink">#F4A89A</color>
+    <color name="skinTone">#F6D7B0</color>
+    <color name="discountRed">#E53935</color>
+    <color name="darkGray">#333333</color>
+    <color name="mediumGray">#777777</color>
+    <color name="cardBorderGray">#E0E0E0</color>
+    <color name="lightCream">#F2F0DB</color>
 </resources>

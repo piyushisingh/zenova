@@ -1,4 +1,5 @@
 package com.example.zenova.domain
 
-class bannerModel {
-}
+data class BannerModel(
+    val url: String = ""
+)
